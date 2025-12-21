@@ -11,8 +11,8 @@ body{
     height: 100vh;
 }
 .container{
-    height: 70vw;
-    width: 55vw;
+    height: 30vw;
+    width: 20vw;
     border-radius: 5px;
     background-color: black;
     display: grid;

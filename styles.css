@@ -11,9 +11,9 @@ body{
     height: 100vh;
 }
 .container{
-    height: 30vw;
-    width: 20vw;
-    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
     background-color: black;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -24,114 +24,53 @@ body{
 
 .item-0{
     border: 1px solid black;
-    background-color: aliceblue;
-    border-radius: 20px;
+    background-color: rgb(24, 86, 137);
+    border-radius: 30px;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 5;
     padding:15px;
-    
-
-    /* grid-row: auto; */
+    color: white;
 }
 .item-1{
     border: 1px solid black;
     background-color: rgb(225, 230, 235);
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
+}
+.item-1:hover{
+    background-color: rgb(170, 177, 184);
 }
 
-.item-2{
-    border: 1px solid black;
-    background-color: rgb(225, 230, 235);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item-3{
-    border: 1px solid black;
-    background-color: rgb(225, 230, 235);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .item-4{
     border: 1px solid black;
     background-color: orange;
     color: aliceblue;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.item-5{
+.item-2{
     border: 1px solid black;
     color: aliceblue;
     background-color: grey;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.item-6{
-    border: 1px solid black;
-    color: aliceblue;
-    background-color: grey;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.item-7{
-    border: 1px solid black;
-    color: aliceblue;
-    background-color: grey;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.item-2:hover{
+    background-color: rgb(224, 213, 213);
 }
 .item-8{
     border: 1px solid black;
     background-color: orange;
     color: aliceblue;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item-9{
-    /* border: 1px solid black; */
-    /* border-radius: 2pc; */
-    color: aliceblue;
-    background-color: grey;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.item-10{
-    border: 1px solid black;
-    color: aliceblue;
-    background-color: grey;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item-11{
-    border: 1px solid black;
-    color: aliceblue;
-    background-color: grey;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,34 +79,7 @@ body{
     border: 1px solid black;
     background-color: orange;
     color: aliceblue;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item-13{
-    border: 1px solid black;
-    color: aliceblue;
-    background-color: grey;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item-14{
-    border: 1px solid black;
-    color: aliceblue;
-    background-color: grey;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item-15{
-    border: 1px solid black;
-    color: aliceblue;
-    background-color: grey;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +88,7 @@ body{
     border: 1px solid black;
     background-color: orange;
     color: aliceblue;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,7 +99,7 @@ body{
     grid-column-end: 3;
     color: aliceblue;
     background-color: grey;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,7 +108,7 @@ body{
     border: 1px solid black;
     color: aliceblue;
     background-color: grey;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,12 +117,11 @@ body{
     border: 1px solid black;
     background-color: orange;
     color: aliceblue;
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align: ; */
 }
 .item{
     border: 1px solid black;
@@ -222,8 +133,18 @@ body{
     align-items: center;
 }
 .item-4:hover{
-    background-color: rgb(123, 114, 114);
+    background-color: rgb(200, 149, 66);
 }
+.item-8:hover{
+    background-color: rgb(200, 149, 66);
+}
+.item-12:hover{
+    background-color: rgb(200, 149, 66);
+}
+.item-16:hover{
+    background-color: rgb(200, 149, 66);
+}
+
 
 
 

@@ -8,7 +8,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 600px;
+}
+.parent_container{
+    height: 310px;
+    width: 210px;
+    border-radius: 20px;
+    background-color: rgb(48, 46, 46);
+    padding: 5px;
 }
 .container{
     height: 300px;
